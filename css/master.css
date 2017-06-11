@@ -1,32 +1,47 @@
+body {
+  background-color: hsl(353, 0%, 70%);
+}
+
 .navbar {
   display:flex;
   justify-content: space-between;
   background-color: rgba(194, 163, 14, 1);
+  border: solid red;
 }
+
 .navebar-header {
   order: -1;
-
 }
 
 .logo {
+  margin-left: 6ex;
+  margin-top: 5ex;
   height: 20vh;
 }
 
 .name {
   order: 0;
-  font-size: 9vh;
+  font-size: 15vh;
 
 }
 
 .social-links {
   display: flex;
   flex-direction: column;
+  margin-right: 6ex;
+  margin-top: 3ex;
+  margin-bottom: 3ex;
   justify-content: space-between;
 
 }
 
+
 .fa {
-  font-size: 3vh;
+  font-size: 5vh;
+}
+
+.fa:hover {
+  color: darkblue;
 }
 
 
