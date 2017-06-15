@@ -43,14 +43,10 @@ body {
   border: none;
 }
 
-/*.projectContainer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}*/
 .project {
   margin: 5vmin;
-  border: solid rgb(153,53,0)
+  border: solid rgb(153,53,0);
+  background-color: rgba(194, 163, 14, 1);
 }
 .project-info {
   border-top: solid rgb(153,53,0)
