@@ -26,19 +26,40 @@ body {
   font-size: x-large;
 
 }
+.social-links > a:link {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+.social-links > a:hover {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+.social-links > a:visited {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+.social-links > a:active {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
 
-/*
-.projectContainer {
+/*.projectContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+}*/
 .project {
-  margin: 1ex;
+  margin: 5vmin;
   border: solid rgb(153,53,0)
 }
 .project-info {
-  border: solid rgb(153,53,0)
+  border-top: solid rgb(153,53,0)
+}
+
+.links > a, .links > a > i {
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .fa {
@@ -49,7 +70,7 @@ body {
   color: darkblue;
 }
 
-*/
+
 
 
 @media (min-width: 500px;) {
